@@ -1,23 +1,23 @@
-# To-Do Application
+# 📝 To-Do Application
 
 This is a simple To-Do application built with Node.js, MySQL, and Bootstrap. It allows users to create, update, and delete tasks in a user-friendly interface.
 
-## Features
+## 🚀 Features
 
-- Add new tasks with title and description.
-- Mark tasks as completed.
-- Delete tasks.
-- Responsive design using Bootstrap.
+- ✅ Add new tasks with title and description.
+- ✔️ Mark tasks as completed.
+- 🗑️ Delete tasks.
+- 📱 Responsive design using Bootstrap.
 
-## Technologies Used
+## 🛠️ Technologies Used
 
-- Node.js
-- Express.js
-- MySQL
-- EJS (Embedded JavaScript templating)
-- Bootstrap
+- **Node.js**
+- **Express.js**
+- **MySQL**
+- **EJS** (Embedded JavaScript templating)
+- **Bootstrap**
 
-## Table of Contents
+## 📚 Table of Contents
 
 - [Installation](#installation)
 - [Database Setup](#database-setup)
@@ -26,18 +26,18 @@ This is a simple To-Do application built with Node.js, MySQL, and Bootstrap. It 
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+## 💻 Installation
 
 1. **Clone the repository:**
 
-   `bash
+   bash
    git clone https://github.com/yourusername/nodejs-mysql-todo.git
    cd nodejs-mysql-todo
 
   ## Install the required packages:
    npm install
 
-## Database Setup
+## 🗄️ Database Setup
   Create a MySQL database:
 
 ##  Log into MySQL:
@@ -52,11 +52,11 @@ This is a simple To-Do application built with Node.js, MySQL, and Bootstrap. It 
       updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
   );
 
-## Running the Application
+## 🏃‍♂️ Running the Application
   Start the server:node server.js
-## Usage
+## 📖 Usage
 Add a Task: Enter the title and description of the task in the input fields and click the "Add Task" button.
 Complete a Task: Click the "Complete" button next to a pending task to mark it as completed. The button will disappear once the task is marked complete.
 Delete a Task: Click the "Delete" button next to any task to remove it from the list.
-## Contributing
+## 🤝 Contributing
 Feel free to fork this repository and submit pull requests. Any contributions are welcome!
